@@ -2,6 +2,7 @@ function display(val){
     document.getElementById("dis").value+=val
 }
 
+// making a function to backspace
 function backspace(){
     document.getElementById("dis").value = document.getElementById("dis").value.slice(0,-1)
 }
