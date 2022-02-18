@@ -10,6 +10,8 @@ function clr(){
     document.getElementById("dis").value = ""
 }
 
+// to calculate the final value
+
 function calc(){
     let x = document.getElementById("dis").value
     y = eval(x)
